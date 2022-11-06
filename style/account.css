@@ -1,0 +1,157 @@
+body {
+    background-color:rgb(143, 165, 187);
+}
+
+button{
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+    color: white;
+    font-weight: 200;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(112, 131, 150);
+    width: 100px;
+    height: 30px;
+    animation: smooth 1s 1 forwards;
+}
+
+#avatar{
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius:50% ;
+}
+#accountmenu button{
+    background-color: rgb(70, 82, 95);
+    z-index: 2;
+    display: grid;
+}
+#buttsacc button:hover{
+    background-color: rgb(110, 130, 150);
+}
+#closeacc{
+    background-color: rgb(70, 82, 95);
+    margin-bottom: 5px;
+}
+
+#accountmenu{
+    
+    border-radius:10px ;
+    margin: 0;
+    padding: 0;
+    place-items: center;
+text-align: center;
+height: 900px;
+    width: 270px;
+    background-color: rgb(70, 82, 95);
+    z-index: 1;
+    position: absolute;
+    left: -300px;
+    display:list-item;
+    transition: all 1s ease-in-out;
+} 
+
+#buttsacc{
+    transition: all 1s ease-in-out;
+    background-color: rgb(70, 82, 95);
+    position: absolute;
+    z-index: 3;
+    top: 190px;
+    display: grid;
+    margin-left: -220px;
+}
+
+#accountmenu.button{
+    background-color: black;
+}
+
+
+#accicon{
+    width: 45px;
+    height: 45px;
+}
+#account{
+    border-radius: 5px;
+    height: 60px;
+    width: 60px;
+    background-color: rgb(102, 119, 139);
+    position: absolute;
+    left: 10px;
+}
+
+
+p{
+    transition: all 1s ease-in-out;
+    animation: smooth 1s 1 forwards;
+    font-weight: 100 ;
+    font-size: larger;
+    color:white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1{
+    transition: all 1s ease-in-out;
+    animation: smooth 1s 1 forwards;
+   font-weight: 100 ;
+    color:white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#main{
+    
+    
+    transition: all 1s ease-in-out;
+    text-align: center;
+animation: smooth 1s 1 forwards;
+}
+
+@keyframes smooth{
+    from{
+opacity: 0;
+
+    }
+
+    to {
+opacity: 1;
+    }
+}
+
+#accbtn{
+    background-color: rgb(70, 82, 95);
+margin-bottom: 5px;
+}
+
+#dvbtn{
+    background-color: rgb(70, 82, 95);
+margin-bottom: 5px;
+}
+
+#ftbtn{
+    background-color: rgb(70, 82, 95);
+    margin-bottom: 5px;
+}
+
+#subbtn{
+    background-color: rgb(70, 82, 95);
+margin-bottom: 5px;
+}
+
+#cdbtn{
+    background-color: rgb(70, 82, 95);
+margin-bottom: 5px;
+}
+
+#stbtn{
+    text-decoration: none;
+    background-color: rgb(70, 82, 95);
+margin-bottom: 5px;
+}
+
+#mainbtn{
+    background-color: rgb(70, 82, 95);
+margin-bottom: 5px;
+}
+
+button:hover{
+    background-color: rgb(70, 82, 95);
+    }
+    
